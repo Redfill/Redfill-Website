@@ -3,6 +3,11 @@ a {
   color: inherit;
 }
 
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
 .header{
   list-style: none;
   text-align: center;
@@ -31,5 +36,5 @@ img.center {
 .post {
   list-style: none;
   text-align: center;
-  
+
 }
