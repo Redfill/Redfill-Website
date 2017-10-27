@@ -16,16 +16,19 @@ html, body{
   font-size: 1.5em
 }
 
-.header > li {
+.header a {
   display: inline-block;
   padding: 5px 25px 5px 25px;
   color: #dfdfdf
 }
 
-.header > li > a:hover {
-  color: #909090;
-  text-shadow: 0 3px #242424
+.header a:hover {
+  color: #ffffff;
+  text-shadow: 0 3px #242424;
+  background-color: #1f1e1e
 }
+
+
 
 img.center {
   display: block;
@@ -36,5 +39,6 @@ img.center {
 .post {
   list-style: none;
   text-align: center;
+  align-items: center;
 
 }
